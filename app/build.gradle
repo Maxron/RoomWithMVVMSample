@@ -37,6 +37,7 @@ dependencies {
     annotationProcessor "android.arch.lifecycle:compiler:$rootProject.archLifecycleVersion"
 }
 
+
 configurations.all {
     resolutionStrategy.force 'com.android.support:support-annotations:27.1.1'
 }
